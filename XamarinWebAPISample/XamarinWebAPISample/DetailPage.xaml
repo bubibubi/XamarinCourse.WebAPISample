@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinWebAPISample.DetailPage">
+
+  <StackLayout>
+    <Label Text ="Codice"/>
+    <Entry x:Name="Id" IsEnabled="False" />
+    <Label Text ="Nome"/>
+    <Entry x:Name="Name" />
+    <Label Text ="Età"/>
+    <Entry x:Name="Age"/>
+    <Button Text ="Conferma" x:Name ="OkButton"/>
+    <Button Text ="Elimina" x:Name ="DeleteButton"/>
+  </StackLayout>
+</ContentPage>
